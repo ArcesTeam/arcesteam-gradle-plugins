@@ -2,7 +2,7 @@
 
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md" title="English">EN English</a>
+  <a href="https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md" title="English">EN English</a>
 </p>
 
 ## 我们的承诺

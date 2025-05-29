@@ -13,8 +13,8 @@ body:
 
         为帮助我们更高效地理解您的问题，请尽可能详细、准确地填写以下内容。
 
-        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
-        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
         - 提交前请先搜索现有 Issue，避免重复反馈。
 
         感谢您的理解与配合！🙏
@@ -26,7 +26,7 @@ body:
 
         本模板专用于反馈使用过程中遇到的疑惑、理解障碍或需进一步说明的问题。
 
-        若您的问题属于 [🐛 Bug 反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=01_Bug_Report.yaml)、[🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml)、[🛠️ 功能增强反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=04_Enhancement_Report.yaml) 或 [✨ 新增功能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=05_Feature_Report.yaml)，请使用相应模板。
+        若您的问题属于 [🐛 Bug 反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=01_Bug_Report.yaml)、[🚀 性能反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=02_Performance_Report.yaml)、[🛠️ 功能增强反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=04_Enhancement_Report.yaml) 或 [✨ 新增功能反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=05_Feature_Report.yaml)，请使用相应模板。
 
         > 如需了解与本项目无关的其他问题（如团队相关），可访问 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 进一步探讨。
 
@@ -83,7 +83,7 @@ body:
 
         ### 行为准则声明
 
-        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
         感谢您保持友善与尊重！
 
         ✅ 我同意遵守本项目的行为准则。

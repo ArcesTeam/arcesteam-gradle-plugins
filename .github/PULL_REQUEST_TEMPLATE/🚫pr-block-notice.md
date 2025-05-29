@@ -10,10 +10,10 @@ Pull Requests are not accepted.*
 *If you wish to make changes, please submit them to the main development
 repository or the relevant source repository.*
 
-如需进一步说明，请阅读本仓库的 [README.md](https://github.com/ArcesTeam/{{project-name}}/blob/main/README.md)
+如需进一步说明，请阅读本仓库的 [README.md](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/README.md)
 文档或联系维护者。
 *For more information, please refer to
-the [README.md](https://github.com/ArcesTeam/{{project-name}}/blob/main/README.md)
+the [README.md](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/README.md)
 or contact the maintainers.*
 
 ---

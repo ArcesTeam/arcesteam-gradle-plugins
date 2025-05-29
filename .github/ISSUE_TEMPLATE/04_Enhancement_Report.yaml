@@ -13,8 +13,8 @@ body:
 
         为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
 
-        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
-        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
         - 提交前请先搜索现有 Issue，避免重复反馈。
 
         感谢您的理解与配合！🙏
@@ -26,9 +26,9 @@ body:
 
         本模板专用于反馈现有功能的优化建议、体验提升或细节完善等需求。
 
-        若为新增功能建议，请使用 [✨ 新增功能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=05_Feature_Report.yaml) 模板。
+        若为新增功能建议，请使用 [✨ 新增功能反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=05_Feature_Report.yaml) 模板。
 
-        若涉及性能优化，请使用 [🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml) 模板。
+        若涉及性能优化，请使用 [🚀 性能反馈](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=02_Performance_Report.yaml) 模板。
 
         再次感谢您的支持！🙏
 
@@ -110,7 +110,7 @@ body:
 
         ### 行为准则声明
 
-        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
         感谢您保持友善与尊重！
 
         ✅ 我同意遵守本项目的行为准则。

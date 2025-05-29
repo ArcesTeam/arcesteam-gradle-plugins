@@ -13,8 +13,8 @@ body:
 
         To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
 
-        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
-        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
         - Search existing issues before submitting to avoid duplicates.
         - A clear title and detailed description (including reproduction steps) will greatly improve processing efficiency.
 
@@ -25,15 +25,15 @@ body:
       value: |
         ### About 🐛 Bug Reports
 
-        This template is only for reporting issues with clear log records. For uncertain issues or other questions, please use the [❓ Question Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=13_Question_Report.yaml) template.
+        This template is only for reporting issues with clear log records. For uncertain issues or other questions, please use the [❓ Question Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=13_Question_Report.yaml) template.
 
         You may also visit [Discussions](https://github.com/orgs/ArcesTeam/discussions) to find related topics.
 
-        Please ensure you are using the latest version of the project. Some historical dependencies or known issues may have been fixed in newer versions. See [CHANGELOG](https://github.com/ArcesTeam/{{project-name}}/blob/main/CHANGELOG/).
+        Please ensure you are using the latest version of the project. Some historical dependencies or known issues may have been fixed in newer versions. See [CHANGELOG](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/CHANGELOG/).
 
-        > For performance-related issues (such as efficiency, memory leaks, etc.), please use the [🚀 Performance Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=12_Performance_Report.yaml) template.
+        > For performance-related issues (such as efficiency, memory leaks, etc.), please use the [🚀 Performance Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=12_Performance_Report.yaml) template.
         >
-        > For systemic failures, security vulnerabilities, or other sensitive issues, do not submit them via this template. See [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/SECURITY.md).
+        > For systemic failures, security vulnerabilities, or other sensitive issues, do not submit them via this template. See [SECURITY](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/SECURITY.md).
 
         Thank you again for your support! 🙏
 
@@ -128,7 +128,7 @@ body:
 
         ### Code of Conduct Statement
 
-        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
         Thank you for being friendly and respectful!
 
         ✅ I agree to abide by the project's Code of Conduct.
