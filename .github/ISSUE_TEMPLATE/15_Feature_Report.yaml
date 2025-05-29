@@ -1,0 +1,97 @@
+name: "✨ Feature Report"
+description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
+title: "[Feat]: "
+labels:
+  - feature
+  - medium
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for contributing to this project!
+
+        To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
+
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Search existing issues before submitting to avoid duplicates.
+
+        Thank you for your understanding and cooperation! 🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### About ✨ Feature Reports
+
+        This template is dedicated to proposing brand new features or major enhancements.
+
+        For optimizations to existing features, please use the [🛠️ Enhancement Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=14_Enhancement_Report.yaml) template.
+
+        For performance-related suggestions, please use the [🚀 Performance Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=12_Performance_Report.yaml) template.
+
+        Thank you again for your support! 🙏
+
+        ---
+
+  - type: textarea
+    id: feature-idea
+    attributes:
+      label: "Your Idea"
+      description: "Please describe in detail the feature or functionality you would like to see added, and the inspiration behind it."
+      placeholder: "I suggest adding..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected Outcome"
+      description: "Please describe the specific result you expect after the feature is implemented."
+      placeholder: "Please enter your expectations."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Related Steps (Optional)"
+      description: |
+        If your suggestion is related to specific operation steps and you already have a feasible implementation plan, please provide detailed steps to help us understand and improve.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "Contact Information (Optional)"
+      description: "If further communication is needed, how can we contact you?"
+      placeholder: "e.g., email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting the issue, you may continue to upload screenshots or other attachments (such as xx.log) via comments.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### Code of Conduct Statement
+
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        Thank you for being friendly and respectful!
+
+        ✅ I agree to abide by the project's Code of Conduct.
+
+        ---
+
+

@@ -1,0 +1,137 @@
+name: "🐛 Bug 反馈"
+description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
+title: "[Bug]: "
+labels:
+  - bug
+  - high
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+        - 明确的标题和详细的描述（包括复现步骤）将大幅提升处理效率。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 🐛 Bug 反馈
+
+        本模板仅用于反馈带有明确日志记录的问题。如遇不确定性问题或其他疑问，建议使用 [❓ 问题反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=03_Question_Report.yaml) 模板。
+
+        您也可访问 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 查找相关话题。
+
+        请确保您使用的是项目最新版本。部分历史依赖或已知问题可能已在新版中修复，详见 [CHANGELOG](https://github.com/ArcesTeam/{{project-name}}/blob/main/CHANGELOG/)。
+
+        > 性能相关问题（如运行效率、内存泄漏等），请使用 [🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml) 模板。
+        >
+        > 系统性故障、安全漏洞等敏感问题，请勿通过此模板提交，详见 [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/SECURITY.md)。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "问题严重程度"
+      description: "请选择该问题对您使用造成的影响。"
+      options:
+        - "偶发（仅出现过一次）"
+        - "轻微（影响极小）"
+        - "一般（部分功能异常）"
+        - "严重（主要功能异常）"
+        - "阻断（完全无法运行）"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "环境信息"
+      description: "请描述操作系统、软件版本等关键信息。"
+      placeholder: "如：Windows 10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "预期行为"
+      description: "请描述您期望程序的正常表现。"
+      placeholder: "请输入预期的行为。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: "实际行为"
+      description: "请描述程序实际发生的情况。"
+      placeholder: "请输入实际观察到的行为。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "复现步骤"
+      description: |
+        请详细列出重现问题的步骤，便于我们快速定位与修复。
+        若为偶发问题，可尽量回顾并描述当时的操作。
+        如有尝试过的修复措施或临时解决方案，也请一并说明。
+        可上传相关附件（如截图、录像、引用文件或代码段链接）以补充说明。
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "相关日志信息（可选）"
+      description: "请粘贴相关日志输出。内容将自动格式化，无需手动添加标识。"
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图或其他附件（如 xx.log）。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

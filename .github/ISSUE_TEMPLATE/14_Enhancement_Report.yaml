@@ -1,0 +1,120 @@
+name: "🛠️ Enhancement Report"
+description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
+title: "[Enh]: "
+labels:
+  - enhancement
+  - medium
+type: Enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for contributing to this project!
+
+        To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
+
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Search existing issues before submitting to avoid duplicates.
+
+        Thank you for your understanding and cooperation! 🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### About 🛠️ Enhancement Reports
+
+        This template is for suggestions to optimize existing features, improve user experience, or refine details.
+
+        For new feature proposals, please use the [✨ Feature Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=15_Feature_Report.yaml) template.
+
+        For performance optimizations, please use the [🚀 Performance Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=12_Performance_Report.yaml) template.
+
+        Thank you again for your support! 🙏
+
+        ---
+
+  - type: dropdown
+    id: enhancement-severity
+    attributes:
+      label: "Impact Level"
+      description: "Please select the impact this suggestion has on the actual experience."
+      options:
+        - "Minor (very little impact)"
+        - "Recommended optimization (mainly for experience improvement)"
+        - "Significant (affects main process or efficiency)"
+        - "Urgent (seriously affects usage)"
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "Current Issue or Shortcoming"
+      description: "Briefly describe the current implementation, feature, or experience that needs optimization."
+      placeholder: "Please describe the issue or shortcoming you found."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Your Suggestion or Expectation"
+      description: "Please describe your optimization suggestion or expected effect in detail."
+      placeholder: "Please enter your suggestion or expectation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Related Steps (Optional)"
+      description: |
+        If your suggestion is related to specific operation steps, please describe them to help us understand the context.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "Relevant Information/Code Snippet (Optional)"
+      description: "Please paste code, logs, or other information related to your suggestion. Content will be automatically formatted."
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "Contact Information (Optional)"
+      description: "If further communication is needed, how can we contact you?"
+      placeholder: "e.g., email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting the issue, you may continue to upload screenshots or other attachments (such as xx.log) via comments.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### Code of Conduct Statement
+
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        Thank you for being friendly and respectful!
+
+        ✅ I agree to abide by the project's Code of Conduct.
+
+        ---
+
+

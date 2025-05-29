@@ -1,0 +1,124 @@
+name: "🚀 性能反馈"
+description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
+title: "[Perf]: "
+labels:
+  - performance
+  - high
+type: Performance
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+        - 明确的标题和详细的描述（包括复现步骤）将大幅提升处理效率。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 🚀 性能反馈
+
+        本模板专用于反馈运行效率低、内存消耗异常、卡顿、加载缓慢等性能相关问题。
+
+        如涉及功能异常，请使用 [🐛 Bug 反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=01_Bug_Report.yaml) 模板；如为架构优化或新建议，请用 [🛠️ 功能增强反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=04_Enhancement_Report.yaml) 或 [✨ 新增功能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=05_Feature_Report.yaml)。
+
+        反馈前请确保已使用项目最新版本，并尽量关闭与性能无关的第三方插件或模组，以排除外部干扰。
+
+        > 如有具体优化建议，欢迎通过 PR 或 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 进一步探讨。
+        >
+        > 若涉及隐私或安全风险，请参见 [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/SECURITY.md)。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: dropdown
+    id: perf-severity
+    attributes:
+      label: "性能影响程度"
+      description: "请选择该性能问题对实际体验的影响。"
+      options:
+        - "轻微（几乎无影响，仅偶尔可感知）"
+        - "一般（有明显影响，但可接受）"
+        - "严重（持续卡顿、加载缓慢、高延迟等）"
+        - "阻断（完全无法使用）"
+      default: 1
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "环境信息"
+      description: "请描述操作系统、软件版本等关键信息。"
+      placeholder: "如：Windows 10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: performance-issue
+    attributes:
+      label: "具体表现"
+      description: "请描述您观察到的性能问题（如 CPU 占用高、内存增长、帧率下降、加载缓慢等）。"
+      placeholder: "请输入详细的问题表现。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "复现步骤"
+      description: |
+        请描述可重复触发该性能问题的操作步骤，便于我们分析。若为偶发问题，请尽量提供当时的操作背景。
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "相关日志信息（可选）"
+      description: "请粘贴与性能问题相关的日志或分析报告。内容将自动格式化。"
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图、性能分析文件等附件（如 xx.log）。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

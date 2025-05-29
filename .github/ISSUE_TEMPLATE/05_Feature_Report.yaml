@@ -1,0 +1,96 @@
+name: "✨ 新增功能反馈"
+description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
+title: "[Feat]: "
+labels:
+  - feature
+  - medium
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 ✨ 新增功能反馈
+
+        本模板专用于提出全新功能或重大特性建议。
+
+        若为现有功能优化，请使用 [🛠️ 功能增强反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=04_Enhancement_Report.yaml) 模板。
+
+        若涉及性能优化，请使用 [🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml) 模板。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: textarea
+    id: feature-idea
+    attributes:
+      label: "您的想法"
+      description: "请详细描述您希望新增的功能或特性，并说明创意来源。"
+      placeholder: "我建议增加..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "期望实现效果"
+      description: "请描述您期望该功能实现后的具体表现。"
+      placeholder: "请输入您的期望。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "相关操作步骤（可选）"
+      description: |
+        如建议与具体操作流程相关，且已有可行实现方案，请提供详细步骤，便于理解与改进。
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图或其他附件（如 xx.log）。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

@@ -1,0 +1,20 @@
+# Disable autocrlf on generated files, they always generate with LF
+# Add any extra files or paths here to make git stop saying they
+# are changed when only line endings change.
+* text=auto
+
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+
+*.png binary
+*.jpg binary
+*.jepg binary
+*.svg binary
+
+*.generated text merge=ours
+
+*.md merge=union
+*.json merge=union
+
+*.log merge=none

@@ -1,0 +1,119 @@
+name: "🛠️ 功能增强反馈"
+description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
+title: "[Enh]: "
+labels:
+  - enhancement
+  - medium
+type: Enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 🛠️ 功能增强反馈
+
+        本模板专用于反馈现有功能的优化建议、体验提升或细节完善等需求。
+
+        若为新增功能建议，请使用 [✨ 新增功能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=05_Feature_Report.yaml) 模板。
+
+        若涉及性能优化，请使用 [🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml) 模板。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: dropdown
+    id: enhancement-severity
+    attributes:
+      label: "影响程度"
+      description: "请选择该建议对实际体验的影响。"
+      options:
+        - "轻微（影响极小）"
+        - "建议优化（体验提升为主）"
+        - "影响较大（影响主要流程或效率）"
+        - "迫切需要（严重影响使用）"
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "现有问题或不足"
+      description: "请简要描述需优化的现有实现、功能或体验。"
+      placeholder: "请说明您发现的问题或不足。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "您的建议或期望"
+      description: "请详细描述您的优化建议或期望的效果。"
+      placeholder: "请输入您的建议或期望。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "相关操作步骤（可选）"
+      description: |
+        如建议与具体操作流程相关，请尽量描述操作步骤，便于我们理解上下文。
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "相关信息/代码片段（可选）"
+      description: "请粘贴与建议相关的代码、日志或其他信息。内容将自动格式化。"
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图或其他附件（如 xx.log）。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

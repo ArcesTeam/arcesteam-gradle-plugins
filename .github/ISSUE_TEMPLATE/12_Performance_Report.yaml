@@ -1,0 +1,125 @@
+name: "🚀 Performance Report"
+description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
+title: "[Perf]: "
+labels:
+  - performance
+  - high
+type: Performance
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for contributing to this project!
+
+        To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
+
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Search existing issues before submitting to avoid duplicates.
+        - A clear title and detailed description (including reproduction steps) will greatly improve processing efficiency.
+
+        Thank you for your understanding and cooperation! 🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### About 🚀 Performance Reports
+
+        This template is for reporting performance-related issues such as low efficiency, abnormal memory usage, lag, or slow loading.
+
+        If your issue is a functional bug, please use the [🐛 Bug Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=11_Bug_Report.yaml) template. For architecture optimization or new suggestions, use the [🔧 Enhancement Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=14_Enhancement_Report.yaml) or [✨ Feature Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=15_Feature_Report.yaml).
+
+        Before reporting, please ensure you are using the latest version of the project and try to disable unrelated third-party plugins or mods to rule out external interference.
+
+        > For specific optimization suggestions, feel free to submit a PR or discuss further in [Discussions](https://github.com/orgs/ArcesTeam/discussions).
+        >
+        > For privacy or security risks, please refer to [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/SECURITY.md).
+
+        Thank you again for your support! 🙏
+
+        ---
+
+  - type: dropdown
+    id: perf-severity
+    attributes:
+      label: "Performance Impact Level"
+      description: "Please select the impact this performance issue has on your experience."
+      options:
+        - "Minor (barely noticeable, only occasional)"
+        - "Moderate (noticeable but acceptable)"
+        - "Severe (persistent lag, slow loading, high latency, etc.)"
+        - "Blocker (completely unusable)"
+      default: 1
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Information"
+      description: "Please describe key information such as operating system, software version, etc."
+      placeholder: "e.g., Windows 10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: performance-issue
+    attributes:
+      label: "Specific Performance Issue"
+      description: "Please describe the performance issue you observed (e.g., high CPU usage, memory growth, FPS drop, slow loading, etc.)."
+      placeholder: "Please enter detailed performance symptoms."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: |
+        Please describe the steps to reliably trigger this performance issue to help us analyze it. For occasional issues, try to provide the context of your operations.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "Relevant Log Output (Optional)"
+      description: "Please paste logs or analysis reports related to the performance issue. Content will be automatically formatted."
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "Contact Information (Optional)"
+      description: "If further communication is needed, how can we contact you?"
+      placeholder: "e.g., email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting the issue, you may continue to upload screenshots, performance analysis files, or other attachments (such as xx.log) via comments.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### Code of Conduct Statement
+
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        Thank you for being friendly and respectful!
+
+        ✅ I agree to abide by the project's Code of Conduct.
+
+        ---
+
+

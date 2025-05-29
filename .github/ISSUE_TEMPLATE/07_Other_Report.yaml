@@ -1,0 +1,76 @@
+name: "🧩 其他反馈"
+description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
+title: "[Other]: "
+labels:
+  - other
+  - low
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 🧩 其他反馈
+
+        本模板适用于任何未被上述模板涵盖的反馈内容。如不确定应使用哪种模板，请选用本模板。
+
+        您可提交关于项目体验、建议、意见，或对开发团队的支持、建议、吐槽等。只要内容符合 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，均可通过本模板反馈。
+
+        如无特殊需求，建议优先通过 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 进一步探讨您的想法，有助于集中整理反馈。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: "反馈内容"
+      description: "请详细描述您的反馈内容及原因。"
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图或其他附件（如 xx.log）。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

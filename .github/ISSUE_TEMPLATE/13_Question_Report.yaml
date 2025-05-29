@@ -1,0 +1,92 @@
+name: "❓ Question Report"
+description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
+title: "[Question]: "
+labels:
+  - question
+  - high
+type: Question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for contributing to this project!
+
+        To help us better understand your question, please fill out the following sections as thoroughly and accurately as possible.
+
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Search existing issues before submitting to avoid duplicates.
+
+        Thank you for your understanding and cooperation! 🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### About ❓ Question Reports
+
+        This template is for reporting questions, confusions, or requests for further clarification encountered during use.
+
+        If your issue is a [🐛 Bug Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=11_Bug_Report.yaml), [🚀 Performance Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=12_Performance_Report.yaml), [🔧 Enhancement Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=14_Enhancement_Report.yaml), or [✨ Feature Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=15_Feature_Report.yaml), please use the corresponding template.
+
+        > For questions unrelated to this project (such as team-related matters), please visit [Discussions](https://github.com/orgs/ArcesTeam/discussions) for further discussion.
+
+        Thank you again for your support! 🙏
+
+        ---
+
+  - type: textarea
+    id: question-description
+    attributes:
+      label: "Question Description"
+      description: "Please describe your question or confusion in detail."
+      placeholder: "Please describe your question or doubt in detail."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-answer
+    attributes:
+      label: "Expected Answer or Help (Optional)"
+      description: "Who do you hope will answer? What kind of help do you expect?"
+      placeholder: "Please describe your expectations."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: "Additional Information (Optional)"
+      description: |
+        If you have relevant code, logs, or other information, please provide it here to help us understand the issue. You may also upload attachments for further clarification.
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "Contact Information (Optional)"
+      description: "If further communication is needed, how can we contact you?"
+      placeholder: "e.g., email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting the issue, you may continue to upload screenshots or other attachments (such as xx.log) via comments.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### Code of Conduct Statement
+
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        Thank you for being friendly and respectful!
+
+        ✅ I agree to abide by the project's Code of Conduct.
+
+        ---
+
+

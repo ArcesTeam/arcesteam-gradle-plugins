@@ -1,0 +1,116 @@
+name: "🧪 开发反馈"
+description: "本模板仅供项目内部开发人员使用，主要用于开发流程记录与进度反馈。非开发成员请勿使用，感谢理解与配合！"
+title: "[Dev]: "
+labels:
+  - development
+  - low
+type: Dev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 感谢您为本项目贡献力量！
+
+        为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
+
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请先搜索现有 Issue，避免重复反馈。
+
+        感谢您的理解与配合！🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 关于 🧪 开发反馈
+
+        本模板专供项目内部开发人员使用，适用于设计开发流程、开发文档、构建脚本、CI/CD 等相关问题。
+
+        建议参考 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 文档的 Development 部分，或查阅 [CONTRIBUTING-DEV](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING-DEV.md) 及 [CONTRIBUTING-GUIDE](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING-GUIDE.md)。
+
+        再次感谢您的支持！🙏
+
+        ---
+
+  - type: input
+    attributes:
+      label: "主要功能简述"
+      description: "请简要描述该模块负责的主要功能或开发内容。"
+      placeholder: "如：负责用户认证模块开发。"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: "是否为附属模块"
+      description: "该问题是否为现有 Issue 的拆分？如是，请添加相关链接以便追踪。"
+      options:
+        - "是（附属模块）"
+        - "否（独立模块）"
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: "开发阶段"
+      description: "请选择当前开发阶段（仅供参考）。"
+      options:
+        - "需求分析"
+        - "设计阶段"
+        - "编码实现"
+        - "测试阶段"
+        - "部署上线"
+        - "维护阶段"
+      default: 2
+    validations:
+      required: false
+
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: "功能模块开发步骤描述"
+      description: |
+        请详细描述设计思路、计划步骤及开发过程中涉及的内容。规范记录开发日志，有助于项目长期健康发展。
+
+        强烈建议每次提交代码前，均建立专门 Issue 进行绑定，便于后续追踪与版本记录。
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "联系方式（可选）"
+      description: "如需进一步沟通，我们可通过哪些方式联系您？"
+      placeholder: "如：email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        提交 Issue 后，您可继续通过评论上传截图或其他附件（如 xx.log）。
+
+        开发过程中的讨论、研究、设计变更等内容，也可在本 Issue 中记录与交流。
+
+        您还可上传相关代码、设计文档、测试用例等，作为开发记录，与团队共享。
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 行为准则声明
+
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        感谢您保持友善与尊重！
+
+        ✅ 我同意遵守本项目的行为准则。
+
+        ---
+

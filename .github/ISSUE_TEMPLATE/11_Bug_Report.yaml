@@ -1,0 +1,138 @@
+name: "🐛 Bug Report"
+description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
+title: "[Bug]: "
+labels:
+  - bug
+  - high
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for contributing to this project!
+
+        To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
+
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Search existing issues before submitting to avoid duplicates.
+        - A clear title and detailed description (including reproduction steps) will greatly improve processing efficiency.
+
+        Thank you for your understanding and cooperation! 🙏
+
+  - type: markdown
+    attributes:
+      value: |
+        ### About 🐛 Bug Reports
+
+        This template is only for reporting issues with clear log records. For uncertain issues or other questions, please use the [❓ Question Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=13_Question_Report.yaml) template.
+
+        You may also visit [Discussions](https://github.com/orgs/ArcesTeam/discussions) to find related topics.
+
+        Please ensure you are using the latest version of the project. Some historical dependencies or known issues may have been fixed in newer versions. See [CHANGELOG](https://github.com/ArcesTeam/{{project-name}}/blob/main/CHANGELOG/).
+
+        > For performance-related issues (such as efficiency, memory leaks, etc.), please use the [🚀 Performance Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=12_Performance_Report.yaml) template.
+        >
+        > For systemic failures, security vulnerabilities, or other sensitive issues, do not submit them via this template. See [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/SECURITY.md).
+
+        Thank you again for your support! 🙏
+
+        ---
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Severity of the Issue"
+      description: "Please select the impact this issue has on your usage."
+      options:
+        - "Occasional (happened only once)"
+        - "Minor (very little impact)"
+        - "Moderate (some features malfunction)"
+        - "Severe (main features malfunction)"
+        - "Blocker (completely unusable)"
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Information"
+      description: "Please describe key information such as operating system, software version, etc."
+      placeholder: "e.g., Windows 10"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "Please describe what you expect the program to do."
+      placeholder: "Please enter the expected behavior."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: "Actual Behavior"
+      description: "Please describe what actually happened."
+      placeholder: "Please enter the actual observed behavior."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: |
+        Please list the steps to reproduce the issue in detail to help us quickly locate and fix it.
+        For occasional issues, try to recall and describe the operations at the time.
+        If you have tried any fixes or workarounds, please also describe them.
+        You may upload relevant attachments (such as screenshots, videos, referenced files, or code snippets) to supplement your description.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevant-log-output
+    attributes:
+      label: "Relevant Log Output (Optional)"
+      description: "Please paste relevant log output. Content will be automatically formatted; no need to add markers manually."
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: contact-details
+    attributes:
+      label: "Contact Information (Optional)"
+      description: "If further communication is needed, how can we contact you?"
+      placeholder: "e.g., email@example.com"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        After submitting the issue, you may continue to upload screenshots or other attachments (such as xx.log) via comments.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### Code of Conduct Statement
+
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        Thank you for being friendly and respectful!
+
+        ✅ I agree to abide by the project's Code of Conduct.
+
+        ---
+
+

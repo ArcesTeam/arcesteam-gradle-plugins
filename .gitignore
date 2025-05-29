@@ -1,0 +1,74 @@
+### Gradle ###
+.gradle/
+**/build/
+!**/src/**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries/
+.idea/uiDesigner.xml
+*.iws
+*.iml
+*.ipr
+**/out/
+!**/src/**/out/
+!.idea/vcs.xml
+!.idea/misc.xml
+!.idea/modules.xml
+
+
+### Eclipse ###
+eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata
+*.launch
+**/bin/
+!**/src/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Log ###
+logs/
+log/
+*.log
+
+### Temp ###
+**/tmp/
+**/temp/
+!**/src/**/tmp/
+!**/src/**/temp/
+*.tmp
+*.temp
+**/.cache/
+
+### Other ###
+*.class
+*.ctxt
+run
+runs
+run-data
+repo
+
