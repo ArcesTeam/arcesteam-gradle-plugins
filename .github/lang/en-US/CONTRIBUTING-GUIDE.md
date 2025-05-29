@@ -1,7 +1,7 @@
 # Development Guide & Workflow
 
 <p align="right">
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING-GUIDE.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CONTRIBUTING-GUIDE.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
   <strong>EN English</strong>
 </p>
 
@@ -62,8 +62,8 @@ for development, submission, and collaboration.
 ## Other Conventions
 
 - All development activities must comply with
-  the [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md)
-  and [Security Policy](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/SECURITY.md).
+  the [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md)
+  and [Security Policy](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/SECURITY.md).
 - For code style, formatting, testing, etc., refer to relevant project documents
   or configurations.
 

@@ -2,7 +2,7 @@
 
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/README.md" title="English">EN English</a>
+  <a href="https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/README.md" title="English">EN English</a>
 </p>
 
 > 本 README 为通用模板，适用于各类项目。请根据实际情况进行相应修改和补充。

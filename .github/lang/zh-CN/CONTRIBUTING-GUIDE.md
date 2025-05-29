@@ -2,7 +2,7 @@
 
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md" title="English">EN English</a>
+  <a href="https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md" title="English">EN English</a>
 </p>
 
 本文件为项目开发的统一规范，适用于所有开发成员及贡献者。请严格遵循以下约定进行开发、提交与协作。
@@ -56,8 +56,8 @@
 
 -
 
-所有开发活动需遵守 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)
-与 [安全政策](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/SECURITY.md)。
+所有开发活动需遵守 [行为准则](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)
+与 [安全政策](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/SECURITY.md)。
 - 代码风格、格式化、测试等请参考项目内相关文档或配置。
 
 如有疑问，请通过 Issue 或 Discussions 联系维护团队。

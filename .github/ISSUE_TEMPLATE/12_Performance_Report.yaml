@@ -13,8 +13,8 @@ body:
 
         To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
 
-        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
-        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
         - Search existing issues before submitting to avoid duplicates.
         - A clear title and detailed description (including reproduction steps) will greatly improve processing efficiency.
 
@@ -27,13 +27,13 @@ body:
 
         This template is for reporting performance-related issues such as low efficiency, abnormal memory usage, lag, or slow loading.
 
-        If your issue is a functional bug, please use the [🐛 Bug Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=11_Bug_Report.yaml) template. For architecture optimization or new suggestions, use the [🔧 Enhancement Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=14_Enhancement_Report.yaml) or [✨ Feature Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=15_Feature_Report.yaml).
+        If your issue is a functional bug, please use the [🐛 Bug Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=11_Bug_Report.yaml) template. For architecture optimization or new suggestions, use the [🔧 Enhancement Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=14_Enhancement_Report.yaml) or [✨ Feature Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=15_Feature_Report.yaml).
 
         Before reporting, please ensure you are using the latest version of the project and try to disable unrelated third-party plugins or mods to rule out external interference.
 
         > For specific optimization suggestions, feel free to submit a PR or discuss further in [Discussions](https://github.com/orgs/ArcesTeam/discussions).
         >
-        > For privacy or security risks, please refer to [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/SECURITY.md).
+        > For privacy or security risks, please refer to [SECURITY](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/SECURITY.md).
 
         Thank you again for your support! 🙏
 
@@ -115,7 +115,7 @@ body:
 
         ### Code of Conduct Statement
 
-        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
         Thank you for being friendly and respectful!
 
         ✅ I agree to abide by the project's Code of Conduct.

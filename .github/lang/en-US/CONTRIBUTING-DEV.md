@@ -1,7 +1,7 @@
 # Developer Contribution Notice
 
 <p align="right">
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING-DEV.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/zh-CN/CONTRIBUTING-DEV.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
   <strong>EN English</strong>
 </p>
 
@@ -11,7 +11,7 @@ Welcome to participate in the development and maintenance of this project!
 
 1. **Read the Development Guide**
    Please carefully read
-   the [Development Guide & Workflow](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md)
+   the [Development Guide & Workflow](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md)
    to understand the requirements for Issue types, branch naming, commit
    messages, PR specifications, etc.
 2. **Choose the Appropriate Issue Type**
@@ -33,9 +33,9 @@ Welcome to participate in the development and maintenance of this project!
 - This project adopts a strict branch and Issue management strategy. All
   development activities must be linked to an Issue.
 - If you have questions or need assistance, please contact the maintainers
-  via [❓ Question Report](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=13_Question_Report.yaml)
+  via [❓ Question Report](https://github.com/ArcesTeam/arcesteam-gradle-plugins/issues/new?template=13_Question_Report.yaml)
   or [Discussions](https://github.com/orgs/ArcesTeam/discussions).
 - For detailed operation processes and naming conventions, please refer to
-  the [Development Guide & Workflow](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md).
+  the [Development Guide & Workflow](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md).
 
 Thank you for your contribution and support!

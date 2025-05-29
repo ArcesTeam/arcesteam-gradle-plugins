@@ -13,8 +13,8 @@ body:
 
         To help us process your feedback more efficiently, please fill out the following sections as thoroughly and accurately as possible.
 
-        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
-        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
+        - Before submitting, please review the [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING.md) guidelines to understand the contribution process and requirements.
+        - Please follow our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md) and remain respectful and friendly.
         - Search existing issues before submitting to avoid duplicates.
 
         Thank you for your understanding and cooperation! 🙏
@@ -26,7 +26,7 @@ body:
 
         This template is for internal project developers only, suitable for issues related to design and development processes, development documentation, build scripts, CI/CD, etc.
 
-        It is recommended to refer to the Development section of the [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING.md) document, or check [CONTRIBUTING-DEV](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING-DEV.md) and [CONTRIBUTING-GUIDE](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md).
+        It is recommended to refer to the Development section of the [CONTRIBUTING](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING.md) document, or check [CONTRIBUTING-DEV](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING-DEV.md) and [CONTRIBUTING-GUIDE](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md).
 
         Thank you again for your support! 🙏
 
@@ -107,7 +107,7 @@ body:
 
         ### Code of Conduct Statement
 
-        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
+        By submitting this issue, you agree to abide by our [Code of Conduct](https://github.com/ArcesTeam/arcesteam-gradle-plugins/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md).
         Thank you for being friendly and respectful!
 
         ✅ I agree to abide by the project's Code of Conduct.
