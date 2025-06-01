@@ -35,10 +35,4 @@ publishing {
             }
         }
     }
-
-    publications {
-        create<MavenPublication>("plugin") {
-            from(components["java"])
-        }
-    }
 }
