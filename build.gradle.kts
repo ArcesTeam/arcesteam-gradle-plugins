@@ -28,7 +28,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/ArcesTeam")
+            url = uri("https://maven.pkg.github.com/ArcesTeam/arcesteam-gradle-plugins")
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "github-actions"
                 password = System.getenv("GITHUB_TOKEN") ?: ""
