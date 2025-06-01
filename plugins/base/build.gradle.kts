@@ -26,3 +26,5 @@ gradlePlugin {
 dependencies {
     implementation(gradleApi())
 }
+
+publishing {}
