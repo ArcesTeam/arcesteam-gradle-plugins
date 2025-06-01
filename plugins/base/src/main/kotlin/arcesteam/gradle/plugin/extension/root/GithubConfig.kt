@@ -5,4 +5,11 @@
  *
  */
 
-rootProject.name = 'arcesteam-gradle-plugins'
+package arcesteam.gradle.plugin.extension.root
+
+open class GithubConfig {
+    var depRepo: String? = null
+    var pubRepo: String? = null
+    var actor: String? = null
+    var token: String? = null
+}
